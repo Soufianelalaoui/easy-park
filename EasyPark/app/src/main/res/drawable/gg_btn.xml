@@ -1,0 +1,20 @@
+
+<!-- drawable/gg_btn.xml -->
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="248dp"
+    android:height="60dp"
+    android:viewportWidth="248"
+    android:viewportHeight="60"
+    >
+    <group>
+        <clip-path
+            android:pathData="M6 0H242C245.314 0 248 2.68629 248 6V54C248 57.3137 245.314 60 242 60H6C2.68629 60 0 57.3137 0 54V6C0 2.68629 2.68629 0 6 0Z"
+            />
+        <path
+            android:pathData="M0 0V60H248V0"
+            android:fillColor="#FCBE00"
+            />
+    </group>
+</vector>

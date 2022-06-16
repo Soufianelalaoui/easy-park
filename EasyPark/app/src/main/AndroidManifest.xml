@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Always include this permission -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!-- Include only if your app benefits from precise location access. -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.EasyPark">
+        <activity
+            android:name=".view.RechercheParkingPriveActivity"
+            android:exported="true"
+            />
+        <activity
+            android:name=".view.ParkingPriveActivity"
+            android:exported="true"
+            />
+        <activity
+            android:name=".view.RechercheParkingActivity"
+            android:exported="true"
+            android:parentActivityName=".view.MainActivity"/>
+        <activity
+            android:name=".view.AdresseActivity"
+            android:exported="true"
+            android:parentActivityName=".view.MainActivity"/>
+        <activity
+            android:name=".view.MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".view.LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name=".receiver.NotificationBroadcastReceiver"  android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.INPUT_METHOD_CHANGED" />
+            </intent-filter>
+        </receiver>
+
+    </application>
+
+</manifest>

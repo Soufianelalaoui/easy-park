@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_light_bg_signup"
+    tools:context=".view.LoginActivity">
+
+    <View
+        android:id="@+id/ellipse_1"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/ellipse_1"
+        app:layout_constraintBottom_toTopOf="@+id/easy_park"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <View
+        android:id="@+id/vector"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="88dp"
+        android:background="@drawable/ic_baseline_place_24"
+        app:layout_constraintBottom_toTopOf="@+id/ellipse_1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.753" />
+
+    <TextView
+        android:id="@+id/easy_park"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="192dp"
+        android:layout_marginBottom="28dp"
+        android:gravity="top"
+        android:text="@string/easy_park"
+        android:textAppearance="@style/easy_park"
+        app:layout_constraintBottom_toTopOf="@+id/editTextEmailAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <EditText
+        android:id="@+id/editTextEmailAddress"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="59dp"
+        android:layout_marginEnd="59dp"
+        android:layout_marginBottom="45dp"
+        android:background="@drawable/rectangle_1"
+        android:gravity="center"
+        android:hint="@string/emailLogin"
+        android:textAppearance="@style/email"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/editTextPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/easy_park" />
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="293dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="45dp"
+        android:background="@drawable/rectangle_1"
+        android:gravity="center"
+        android:hint="@string/passwordLogin"
+        android:inputType="textPassword"
+        android:textAppearance="@style/password"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/buttonLoginRegister"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/buttonLoginRegister"
+        android:layout_width="250dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="179dp"
+        android:background="@drawable/bg_btn"
+        android:elevation="5dp"
+        android:text="@string/log_in"
+        android:textAppearance="@style/log_in"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/log_inBis"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/log_inBis"
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="28dp"
+        android:gravity="bottom"
+        android:text="@string/log_inBis"
+        android:textAppearance="@style/forget_pwd"
+        android:textSize="19dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewSwitchLoginregister"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginBottom="28dp"
+        android:gravity="bottom"
+        android:text="@string/log_in"
+        android:textAppearance="@style/log_inBis"
+        android:textSize="19dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/log_inBis" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

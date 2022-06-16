@@ -1,0 +1,19 @@
+<!-- drawable/bg_btn.xml -->
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="250dp"
+    android:height="60dp"
+    android:viewportWidth="250"
+    android:viewportHeight="60"
+    >
+    <group>
+        <clip-path
+            android:pathData="M6 0H244C247.314 0 250 2.68629 250 6V54C250 57.3137 247.314 60 244 60H6C2.68629 60 0 57.3137 0 54V6C0 2.68629 2.68629 0 6 0Z"
+            />
+        <path
+            android:pathData="M0 0V60H250V0"
+            android:fillColor="#FCBE00"
+            />
+    </group>
+</vector>

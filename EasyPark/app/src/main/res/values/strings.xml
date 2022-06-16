@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">easyPark</string>
+    <string name="button">Button</string>
+    <string name="register">REGISTER</string>
+    <string name="do_you_have_an_account">Do you have an account?</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="do_you_have_not_an_account">Do you have not an account?</string>
+    <string name="parking_proximit">Parking à proximité</string>
+    <string name="localiser_ma_voiture">localiser ma voiture</string>
+    <string name="parking_pr_s_de_ma_destination">parking près de ma destination</string>
+    <string name="textview">TextView</string>
+    <string name="d_connexion">Déconnexion</string>
+    <string name="mes_adresses">Mes adresses</string>
+    <string name="distance_de_votre_destination">Distance de votre destination :</string>
+    <string name="place_totale">Place totale :</string>
+    <string name="place_disponible">Place disponible :</string>
+    <string name="probabilté_de_stationnement">Probabilté de stationnement :</string>
+    <string name="ville">Ville :</string>
+    <string name="parking_republique">parking republique</string>
+    <string name="lille">Lille</string>
+    <string name="_152">152</string>
+    <string name="_567">567</string>
+    <string name="_5_2_km">5.2 km</string>
+    <string name="_5_0_per">50%</string>
+    <string name="lance_google_maps">Lance google Maps</string>
+    <string name="libelle">Libellé</string>
+    <string name="pas_de_r_sultat">Pas de résultat</string>
+    <string name="notif_test">Notif Test</string>
+    <string name="seConnecter">Se connecter</string>
+    <string name="sEnregistrer">Créer un compte ?</string>
+    <string name="navigation">navigation</string>
+
+    <string name="easy_park">Easy Park</string>
+    <string name="emailLogin">example@gmail.com</string>
+    <string name="passwordLogin">***********</string>
+    <string name="log_in">Se connecter</string>
+    <string name="forget_pwd">Mot de passe oublié?</string>
+    <string name="or_text">Or</string>
+    <string name="gg">Continuer avec Google</string>
+    <string name="signup">Créer un compte?</string>
+    <string name="log_inBis">Vous avez deja un compte ?</string>
+    <string name="create_acco">Créer un compte</string>
+</resources>

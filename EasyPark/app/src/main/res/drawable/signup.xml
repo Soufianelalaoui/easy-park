@@ -1,0 +1,19 @@
+<!-- drawable/singup.xml -->
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="386.82dp"
+    android:height="844dp"
+    android:viewportWidth="386.82"
+    android:viewportHeight="844"
+    >
+    <group>
+        <clip-path
+            android:pathData="M0 0H386.817V844H0V0Z"
+            />
+        <path
+            android:pathData="M0 0V844H386.817V0"
+            android:fillColor="#FFFFFF"
+            />
+    </group>
+</vector>

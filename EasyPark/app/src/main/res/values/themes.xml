@@ -1,0 +1,129 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.EasyPark" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/accent</item>
+        <item name="colorSecondaryVariant">@color/accent</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="android:windowBackground">@drawable/background</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="button">
+        <item name="android:textColor">@color/white</item>
+        <item name="cornerRadius">20dp</item>
+        <item name="textAllCaps">false</item>
+    </style>
+    <!--
+    Font family: Montserrat
+    Line height: 61sp
+    -->
+    <!-- styles.xml -->
+    <style name="easy_park">
+        <item name="android:textSize">50sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:fontFamily">@font/montserratextrabold</item>
+    </style>
+    <!--
+    Font family: Open Sans
+    Line height: 31sp
+    -->
+    <!-- styles.xml -->
+    <style name="email">
+        <item name="android:textSize">23sp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:fontFamily">@font/opensansregular</item>
+    </style>
+    <!--
+    Font family: Open Sans
+    Line height: 31sp
+    -->
+    <!-- styles.xml -->
+    <style name="password">
+        <item name="android:textSize">23sp</item>
+        <item name="android:textColor">#888888</item>
+        <item name="android:fontFamily">@font/opensansregular</item>
+    </style>
+    <!--
+    Font family: Montserrat
+    Line height: 28sp
+    -->
+    <!-- styles.xml -->
+    <style name="log_in">
+        <item name="android:textSize">23sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:fontFamily">@font/montserratbold</item>
+    </style>
+    <!--
+    Font family: Open Sans
+    Line height: 27sp
+    -->
+    <!-- styles.xml -->
+    <style name="forget_pwd">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:fontFamily">@font/opensansregular</item>
+    </style>
+    <!--
+    Font family: Open Sans
+    Line height: 27sp
+    -->
+    <!-- styles.xml -->
+    <style name="or_text">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:fontFamily">@font/opensansregular</item>
+    </style>
+    <!--
+    Font family: Montserrat
+    Line height: 22sp
+    -->
+    <!-- styles.xml -->
+    <style name="gg">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:fontFamily">@font/montserratbold</item>
+    </style>
+    <!--
+    Font family: Open Sans
+    Line height: 30sp
+    (identical to box height)
+    -->
+    <!-- styles.xml -->
+    <style name="signup">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">#FCBE00</item>
+        <item name="android:fontFamily">@font/opensansregular</item>
+    </style>
+    <!--
+    Font family: Open Sans
+    Line height: 30sp
+    (identical to box height)
+    -->
+    <!-- styles.xml -->
+    <style name="log_inBis">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">#FCBE00</item>
+        <item name="android:fontFamily">@font/opensansregular</item>
+    </style>
+
+
+    <!--
+    Font family: Montserrat
+    Line height: 28sp
+    -->
+    <!-- styles.xml -->
+    <style name="create_acco">
+        <item name="android:textSize">23sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:fontFamily">@font/montserratregular</item>
+    </style>
+</resources>
